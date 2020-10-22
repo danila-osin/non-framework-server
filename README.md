@@ -3,7 +3,7 @@
 > #### Написал мини фреймворк. 
 > Можно писать рауты и middleware. Присутствуют _json_ и _files парсеры_.
 > Код находится в папке *lib*.
-> #### В проекте не использовался не один фреймворк
+> #### В проекте не использовался ни один фреймворк
 
 ## Список зависимостей
     1. bcrypt
@@ -14,8 +14,8 @@
 ## Использование
 
 ```javascript
-const app = createSrerver() - создать сервер
-app.use(middle) - добавить middleware
+const app = createServer() - создать сервер
+app.use(middleware) - добавить middleware
 
 const router = createRouter() - создать раутер
 router.get(url, ...middlewares) - создать раут
